@@ -122,7 +122,7 @@
 
 
 <nav class="navbar narbar-inverse navbar-expand-lg fixed-top">
-  <a class="a-logo" href="#"><img class="navbar-brand logo" src="images/LOGO.png"></a>
+  <a class="a-logo" href="#"><img class="navbar-brand logo" src="images/logo.png"></a>
 
   <img class="gloves-1" src="images/boxing-glove.png">
 <div class="navbar-header">
@@ -140,13 +140,13 @@
         <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLRForm">เข้าสู่ระบบ</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="content1.html">จองคอร์ด</span></a>
+        <a class="nav-link" href="content1.html">จองคอร์ส</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="content-bmi.html">คำนวณBmi</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">ราคา/คอร์ด</a>
+        <a class="nav-link" href="#">ราคา/คอร์ส</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">สาขา</a>
@@ -272,15 +272,15 @@
 
 	<div class="collapse" id="collapseExample">
   <div class="card-body bg-1">
-	<h2>คำนวณเพื่อหาคอร์ดที่เหมาะสม</h2>
+	<h2>คำนวณเพื่อหาคอร์สที่เหมาะสม</h2>
   <div class="container">
-	<button type="button" class="button-bmi">หญิง</button>
-  <button  type="button" class="button-bmi-2">ชาย</button>
+	<button id="myDIV" type="button" class="button-bmi btn btn-outline-danger">หญิง</button>
+  <button id="myDIV" type="button" class="button-bmi-2 btn btn-outline-danger">ชาย</button>
   </div>
 	<input class="input-age" type="" name="" placeholder="อายุ">
     <input class="input-age" type="" name="" placeholder="น้ำหนัก">
     <input class="input-age" type="" name="" placeholder="ส่วนสูง">
-	<button onclick="window.location.href = 'content-bmi.html';" class="search-box"><h4>ค้นหาคอร์ดสำหรับคุณ</h4></button>
+	<button onclick="window.location.href = 'content-bmi.html';" class="search-box"><h4>ค้นหาคอร์สสำหรับคุณ</h4></button>
 </div>
 	</div>
 	<!-- <hr class="line-style"> -->
@@ -317,7 +317,7 @@
 	<div class="chord-wrapper">
 
 		<div class="container chord">
-			<div><h3>คอร์ดเรียน</h3></div>
+			<div><h3>คอร์สเรียน</h3></div>
       <div class="card-group">
   <div class="card">
     <img src="images/chord-1.jpg" class="card-img-top" alt="...">
@@ -381,7 +381,7 @@
     </div>
 
   </div>
-  <button class="search-box"><h4>คอร์ดเพิ่มเติม</h4></button>
+  <button class="search-box"><h4>คอร์สพิ่มเติม</h4></button>
 	</div>
 
 
@@ -592,7 +592,18 @@ technique, power & speed, defensive maneuvers, footwork, and counter-punching...
 	</div>
 	<div class="copyright"><h2>Copyright &copy; 2020 THAI FIST</h2></div>
   </footer>
-
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
 <script> $('#modal1').on('hidden.bs.modal', function (e) {
   // do something...
   $('#modal1 iframe').attr("src", $("#modal1 iframe").attr("src"));
