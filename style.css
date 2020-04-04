@@ -1,4 +1,4 @@
-อร
+
 html{
 	background-color: black;
 }
@@ -437,9 +437,16 @@ text-align: center;
 background-color: black;
 }
 
+hr.hr-red{
+	float: left;
+	 width: 100%;
+	 height: auto;
+	border: 5px solid red;
+	background-color: red;
+	margin: 0%;
+	
+}
 .video-pic{
-	border-top: 5px solid red;
-	border-bottom: 5px solid red;
 	background-color: #E6E6E6;
 	float: left;
 	margin-top: ;
@@ -448,7 +455,7 @@ background-color: black;
 }
 .video-pic img{
 	float: left;
-	width: 30%;
+	width: 30.2%;
     height: auto;
     cursor: pointer;
 }
