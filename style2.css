@@ -239,6 +239,7 @@ hr.line-style{
 }
 
 .card-location{
+	cursor: pointer;
 	float: left;
 	width: 30.1%;
 	margin: 1% 1.6%;
@@ -253,6 +254,9 @@ hr.line-style{
 	margin-top: 93%;
 	color: black;
 }
+.location-text:hover{
+	color: #cc0000;
+}
 .teacher-text{
 	padding: 8% 14%;
 	width: 100% !important;
@@ -260,6 +264,9 @@ hr.line-style{
 	background: rgba(161,161,161,0.5);
 	margin-top: 119%;
 	color: black;
+}
+.teacher-text:hover{
+	color: #cc0000;
 }
 .location-text h2{
 
@@ -298,6 +305,7 @@ hr.line-style{
 
 
 .card-teacher{
+	cursor: pointer;
 	float: left;
 	width: 30.1%;
 	margin: 1% 1.6%;
