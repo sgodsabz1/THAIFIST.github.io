@@ -117,12 +117,12 @@ hr.line-style{
 	margin-top: 7.9%;
 }
 .navbar-collapse{
-	font-size: 18px;
+	font-size: 22px;
 	margin-top: 2%;
 	float: left;
 	margin-right: 5%;
 	padding: 3%;
-	margin-left: 0%;
+	margin-left: 8%;
 }
 .navbar-toggler-icon{
 
@@ -647,6 +647,7 @@ margin: 8% 15%;
 	}
 
 	.navbar-collapse{
+		margin: 0%;
 		background-color: black;
 
 	}
