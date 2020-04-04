@@ -117,12 +117,12 @@ hr.line-style{
 	margin-top: 7.9%;
 }
 .navbar-collapse{
-	font-size: 22px;
+	font-size: 18px;
 	margin-top: 2%;
 	float: left;
 	margin-right: 5%;
 	padding: 3%;
-	margin-left: 8%;
+	margin-left: 0%;
 }
 .navbar-toggler-icon{
 
@@ -314,18 +314,14 @@ hr.line-style{
 .location-text{
 	margin-top: 0%;
 }
-.chord{
 
-	background-color: black;
-
-}
-.chord-wrapper{
+/* .chord-wrapper{
 
     width: auto;
 	height: 160%;
 	background-color: black;
 	margin-bottom: 0%;
-}
+} */
 .chord-wrapper h3{
 	font-size: 32px;
 	color: white;
@@ -647,7 +643,6 @@ margin: 8% 15%;
 	}
 
 	.navbar-collapse{
-		margin: 0%;
 		background-color: black;
 
 	}
