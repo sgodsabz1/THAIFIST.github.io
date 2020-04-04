@@ -680,6 +680,10 @@ font-size: 26px;
 .text-footer-3 h2{
 font-size: 26px;
 }
+.find-box{
+	width: 40%;
+	margin: 5% 30%;
+}
 
 
 	/*header*/
