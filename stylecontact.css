@@ -13,10 +13,6 @@ body{
 	font-family: 'Kanit', sans-serif;
 	background-color: black;
 }
-.super-wrapper{
-	background-color: #000000;
-}
-
 .logo{
 	float: left;
 	width: 45%;
@@ -147,256 +143,326 @@ hr.line-style{
 	margin: 0 0 0 0;
 
 }
-.
-.wrapper{
-	background-color: black;
-}
-.banner{
-	margin-top: 30px;
-	text-align: center;
-	background-color: black;
-}
-.banner{
+/*header*/
+.banner-1{
 	width: 100%;
 	height: auto;
+	margin: 80 0 0 0;
+}
+.workout{
+	width: 100%;
+	height: 10%;
+	margin-bottom: 1%''
 
 }
-.my-social{
-	padding-top: 50px;
-	padding-bottom: 50px;
+.workout-button{
+	width: 50%;
+	height: 100%;
+	color: black;
+	float: left;
+	border: none;
+	font-family: 'Kanit', sans-serif;
+
+}
+.workout-button:hover{
+	background-color: #CC0000;
 	color: white;
-	background-color: black;
-	text-align: center;
-	margin: 0 ;
-
 
 }
-.my-social h3{
-
-	margin: 0 ;
-
+.workout-button:mousedown{
+	background-color: #CC0000;
+	color: white;
 }
-.wrapper-contact{
+.workout-button h2{
+	font-size: 28px;
+	color: black;
 	width: auto;
 	height: auto;
-	background-color: red;
-	padding-left: : 20%;
-
-
 }
-.contact-style{
-		width: 25%;
-		height: 200px;
-		float: left;
-	   text-align: center;
-	}
-
-	.contact-style a{
-		color: white
-	}
-	.contact-style a:hover{
-		color: red;
-		text-decoration-line: none;
-	}
-.find-box{
-	float: left;
-	color: white;
-	text-align: center;
-	margin: 5% 30%;
-	background-color: #CC0000;
-	border-radius: 25px;
-	width: 40%;
-	height: auto;
-	border: none;
-}
-.banner-promo{
-	margin-left: 7%;
-	text-align: center;
+.bmi-div{
+	width: 100%;
+	height: 100%
+	margin-bottom: -2.2%;
 	background-color: black;
-	width: 80%;
-	height: auto;
 }
-.wrapper-question{
+.bmi-div h1{
+	margin: 0% 1%;
+	float: left;
+	color: white;
+	font-size: 32px;
+}
+.sex-text{
+	margin-bottom: 50px;
+}
+.bmi-div h2{
+	margin-top: 5%;
+	margin-bottom: 20px;
+	color: white;
+	text-align: center;
+}
+.bmi-div h3{
 
+	color: white;
+	text-align: center;
+}
+.bmi{
+
+	margin-top:0%;
 	background-color: black;
+	margin-bottom: 0%;
+}
+.bg-1{
+	 background-color: black  !important;
+}
+.button-bmi{
+	font-size: 26px;
 	text-align: center;
-
-}
-.topic-question{
-
-	padding-top: 50px;
-	padding-bottom: 40px;
-	color: white;
-
-}
-.selec-sex1{
+	margin-right: 2%;
+	margin-left: 14%;
+	background-color: #E6E6E6;
+	width: 35%;
+	height: auto;
+	border-radius: 20px;
+	border: 2px solid red;
 	float: left;
-	padding-left: 30%;
+}
+.button-bmi-2{
+	font-size: 26px;
 	text-align: center;
-}
-.selec-sex2{
+	margin: 0%;
+	background-color: #E6E6E6;
+	width: 35%;
+	height: auto;
+	border-radius: 20px;
+	border: 2px solid red;
 	float: left;
-	padding-left: 23%;
-	padding-right: 20px;
-
 }
-.selec-sex1 h3{
-	color: white;
-}
-.selec-sex2 h3{
-	color: white;
-}
-.topic-question{
-	clear: left;
-}
-.aeg{
-	text-align: center;
-}
-.aeg h3{
-	color: white;
-	margin: 0px;
-	text-align: left;
-	padding-left: 10%;
-}
-.line-question{
-	background-color: red;
-	width: 80%;
-	padding-right: 50px;
-	height: 2px;
-	margin: 20px 10% 0px 10%;
-}
-.salary h3{
-	text-align: center;
-	color: white;
-	margin: 0px;
-	text-align: left;
-	padding-left: 10%;
-}
-.salary{
-	margin-bottom: 40px;
-}
-.often-box{
-
-	float: left;
-	height: 20px;
-	width: 4%;
-	margin: 1%;
-	font-size: 24px;
-	color: white;
-}
-.often-min{
-float: left;
-width: 30%;
-text-align: right;
-padding-right: 30px;
-}
-.often-min h3{
-	color: white;
-
-}
-.often-max{
-float: left;
-
-text-align: left;
-padding-left: 2%;
-color: white;
-}
-.E-mail-fill{
-
-	clear: left;
-}
-.often{
-	clear: left;
-}
-/* .fill-box{
-	cursor: pointer;
-	border: 2px solid #cc0000;
-	float: left;
-	width: 40%;
-	height: 6%;
-	background-color: white;
-	border-radius: 10px 0px 0px 10px;
-	margin: 0% 30% 30% 0%:
-
-}
-.sent-email{
-	border: 2px solid #cc0000;
-	padding-right: 2%;
-	border-radius: 0px 10px 10px 0px;
-	float: left;
-	width: 7%;
-	height: 6%;
+.button-bmi:hover{
 	background-color: #CC0000;
-	cursor: pointer;
-	margin: 0% 30% 30% 0%:
-} */
+	color: white;
 
-.mail-box-1{
-	cursor: pointer;
-	border: 2px solid #cc0000;
-	float: left;
-	width: 80%;
-	height: 10%;
-	background-color: white;
-	border-radius: 10px 0px 0px 10px;
-	margin-bottom: 8%;
 }
-.mail-box-2-1{
-	border: 2px solid #cc0000;
-	padding-right: 2%;
-	border-radius: 0px 10px 10px 0px;
-	float: left;
-	width: 20%;
-	height: 10%;
+.button-bmi-2:hover{
 	background-color: #CC0000;
-	cursor: pointer;
-	margin-bottom: 8%;
-}
-.mail-box-2-1 i{
-
-	padding-top: 13%;
-	padding-left: 10%;
     color: white;
-    font-size: 40px;
-		margin-bottom: 8%;
 }
-.sent-email .submit{
-	margin-bottom: 55px;
-}
-.contact-text{
-	padding-top: 30px;
-	font-size: 30px;
-	margin-top: 5px;
-}
-.Qemail{
-	margin: 0px;
-	padding-top: 40px;
+.input-age{
 	text-align: center;
+	font-size: 22px;
+	float:left;
+    color: #CC0000;
+	margin: 2% 30%;
+	width: 40%;
+	height: 5%;
+	background-color: #A1A1A1;
+	border-radius: 15px;
+}
+.input-age::placeholder{
+	color: red;
+
+}
+.search-box{
+ float: left;
+ color: white;
+ text-align: center;
+ margin: 5% 35%;
+ background-color: #CC0000;
+ border-radius: 25px;
+ width: 30%;
+ height: auto;
+ border: none;
+}
+.search-box h4{
+	font-size: 32px;
+	margin-top: 8px;
+}
+
+/*.line-style{
+	width: 1660;
+	height: auto;
+	border-bottom: 2px
+}*/
+.blank-bg{
+	width: 100%;
+	height: 10%;
+	background-color: black;
+}
+.location{
+	margin-bottom: %;
+	background-color: black;
+	position: relative;
+}
+.location-wrapper{
+    margin-top: %;
+	width: auto;
+	height: 100%;
+	background-color: black;
+}
+.location-pic{
+	position: relative;
+  text-align: center;
+
+	float: left;
+	width: 30%;
+	height: auto;
+	margin: 1%;
+}
+.location-wrapper h3{
+	font-size: 32px;
 	color: white;
 }
-.Qdetail{
+.location-text{
+	margin-top: 0%;
+}
+.chord{
 
-   text-align: center;
+	background-color: black;
 
 }
-.text-footer-G{
-	width: 95%;
-	text-align: center;
+.chord-wrapper{
+
+    width: auto;
+	height: 160%;
+	background-color: black;
+	margin-bottom: 0%;
 }
-.text-footer-G h4{
-	color: #484848;
-	font-size: 16px;
+.chord-wrapper h3{
+	font-size: 32px;
+	color: white;
+}
+.chord{
+	background-color: black;
+
+}
+.chord-wrapper{
+
+   width: auto;
+	height: 100%;
+	background-color: black;
+	position: relative;
+	margin: 155 0 0 0px;
+}
+.chord-wrapper h3{
+	font-size: 32px;
+	color: white;
+}
+
+.chord-pic{
+	position: relative;
+    text-align: center;
+	float: left;
+	width: 45%;
+	height: auto;
 	margin: 2%;
 }
-.cday{
-	display: none;
-	background-color: red;
-	width: 150px;
-	height: 35px;
-	border-radius: 10px;
-	text-align: center;
-	color: white;
+.recom{
+   outline:1px solid #cc0000;
+}
+
+.chord-bg{
+	position: absolute;
+	width: 23.7%;
+	height:10%;
+	background-color: #A1A1A1;
+	margin-top: 14.2%;
+	margin-left: 1%;
+	opacity: 0.5;
+}
+.chord-bg-2{
+	position: absolute;
+	width: 23.7%;
+	height:10%;
+	background-color: #A1A1A1;
+	margin-top: 13.2%;
+	margin-left: 26.7%;
+	opacity: 0.5;
+}
+
+.chord-text-1{
+	clear: both;
+	position: absolute;
+	width: 23.6%;
+	height:10%;
+	margin-top: 14.2%;
+	margin-left: 1.1%;
+	color: #000;
+	padding-top: 0.2%;
+	padding-left: 0.1%;
+	background: rgba(161,161,161,0.5);
+
+
+}
+.chord-text-2{
+	clear: both;
+	float: left;
+	position: absolute;
+	width: 23.6%;
+	height:10.1%;
+	margin-top: 14.2%;
+	margin-left: 26.8%;
+	color: #000;
+	padding-top: 0.2%;
+	padding-left: 0.1%;
+	background: rgba(161,161,161,0.5);
+
+}
+.chord h2{
+	font-size: 22px;
+	margin: 0.5%;
+	opacity: 1;
+}
+.chord p{
 	font-size: 18px;
+	margin: 1%;
+}
+.video{
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	background-color: black;
+}
+.video h3{
+	font-size: 36px;
+	color: white;
+}
+.video-box{
+	margin-top: 2%;
+text-align: center;
+background-color: black;
+}
+
+.video-pic{
+	border-top: 5px solid red;
+	border-bottom: 5px solid red;
+	background-color: #E6E6E6;
+	float: left;
+	margin-top: ;
+	width: 100%;
+	height: 24.2%;
+}
+.video-pic img{
+	float: left;
+	width: 30%;
+    height: auto;
+    cursor: pointer;
+}
+.text-video{
+	margin-top: 2%;
+	float: left;
+	margin-left: 2%;
+	width: 40%;
+	height: auto;
+	font-size: 18px;
+cursor: pointer;
+
+}
+.text-video h3{
+	color: black;
+}
+.bg-black{
+	width: 100%;
+	height: auto;
+	background-color: black;
 }
 hr.hr-video{
 	clear: both;
@@ -441,7 +507,6 @@ clear: both;
 	text-align: center;
 }
 .text-footer h3{
-
 	font-size: 32px;
 	color: white;
 	margin: 5%;
@@ -474,7 +539,6 @@ margin: 8% 15%;
    color: #CC0000;
 }
 .text-footer-3 h2{
-
 	text-align: left;
 	cursor: pointer;
 
@@ -542,54 +606,9 @@ margin: 8% 15%;
 .container .hr-video{
 	width: 100%;
 }
-/*header*/
+
 /*ipad*/
 @media screen and (max-width: 768px){
-
-
-	.contact-style img{
-		width: 150px;
-		float: left;
-	   text-align: center;
-	   padding-left: 60px;
-	   padding-right:  20px;
-	}
-	.contact-style{
-		width: 25%;
-		height: 150px;
-		float: left;
-	   text-align: center;
-	}
-	.contact-text{
-		font-size: 24px;
-		margin-top: 65px;
-
-
-	}
-	.selec-sex2{
-
-
-	padding-left: 25%;
-	padding-right: 20px;
-
-}
-.selec-sex1{
-
-
-	padding-left: 25%;
-	text-align: center;
-}
-.selec-sex2 img{
-
-	width: 85px;
-
-
-}
-.selec-sex1 img{
-
-	width: 85px;
-
-}
 .navbar{
 		width: auto;
 		height: 10%;
@@ -639,40 +658,127 @@ margin: 8% 15%;
 margin-top: 4.5%;
 
 	}
-	.mail-box-1 {
-		height: 8%;
+	/*header*/
+	.banner-1{
+        margin-top:20%;
 	}
-	.mail-box-2-1 {
-		height: 8%;
+	.location-wrapper{
+		height: 70%;
 	}
-	.mail-box {
-		height: 8%;
+	.input-age{
+		width:70%;
+		height: auto;
+		margin-left: 15%;
 	}
-	.mail-box-2 {
-		height: 8%;
+	.search-box{
+		width: 50%;
+		margin-left: 25%;
 	}
-	.Qdetail{
+	.chord-pic{
+	position: relative;
+    text-align: center;
+	float: left;
+	width: 90%;
+	height: auto;
+	margin: 2% 5%;
+	margin:
+}
+.chord-bg{
+	position: absolute;
+	opacity: 0.5;
 
-	   text-align: center;
-		margin: 0% -14% 4% -10%;
-	}
-	.text-footer-G{
+	width: 86.3%;
+	height: 15.2%;
 
-		text-align: center;
-	}
-	.text-footer-G h4{
-		font-size: 12px;
-	}
-	hr.hr-video-1{
-		display: block;
-		clear: both;
-		border-top: 1px solid red;
-		margin: 0%;
-	}
-	.call-box{
- padding-top: 0%;
- font-size: 18px;
- height: 15%;
+	margin-top: 49.1%;
+	margin-left: 4.8%;
+}
+.chord-text-1{
+	position: absolute;
+	opacity: 1;
+
+	width: 80.8%;
+	height: 12.5%;
+
+	margin-top: 48%;
+	margin-left: 4.5%;
+}
+.chord-text-1 h2{
+	font-size: 32px;
+}
+.chord-text-1 p{
+	font-size: 24px;
+}
+.chord-text-2 h2{
+	font-size: 32px;
+}
+.chord-text-2 p{
+	font-size: 24px;
+}
+.chord-bg-2{
+	position: absolute;
+	opacity: 0.5;
+
+	width: 86.3%;
+	height: 15%;
+
+	margin-top: 120%;
+	margin-left: 4.8%;
+}
+.chord-text-2{
+	position: absolute;
+	opacity: 1;
+
+	width: 80.8%;
+	height: 12.5%;
+
+	margin-top: 114.7%;
+	margin-left: 4.6%;
+}
+.video-box{
+    width: 100%;
+    height: 30%;
+}
+.video-box iframe{
+	width: 100%;
+	height: 100%;
+
+}
+.video-pic{
+	width: auto;
+	height: 14.4%;
+}
+.video-pic img{
+	width: 44%;
+	height: auto;
+}
+.text-video{
+	width: 44%;
+	height: auto;
+	margin-left: 2%;
+	margin-bottom: 10%;
+
+}
+.video-pic h3{
+	font-size: 18px;
+}
+.video-pic p{
+	font-size: 12px;
+}
+.call-box{
+	padding-top: 0%;
+	font-size: 18px;
+	height: 15%;
+}
+.call-box h3{
+	margin-top:  2%;
+}
+.mail-box {
+	height: 8%;
+
+}
+.mail-box-2 {
+	height: 8%;
 }
 .text-footer-2 h2{
 font-size: 26px;
@@ -680,99 +786,26 @@ font-size: 26px;
 .text-footer-3 h2{
 font-size: 26px;
 }
-
-
-	/*header*/
-	/*moblie*/
-@media screen and (max-width: 576px){
-	.cday{
-	margin-left: 28%;
-	padding-left: 10px;
+hr.hr-video-1{
 	display: block;
-	background-color: red;
-	width: 150px;
-	height: 35px;
-	border-radius: 10px;
-	text-align: center;
-	color: white;
-	font-size: 18px;
-}
-.often{
-	display: none;
-}
-.my-social{
-	padding-top: 5px;
-}
-.my-social h1{
-	font-size: 20px;
+	clear: both;
+	border-top: 1px solid red;
+	margin: 0%;
 
 }
-.contact-style{
-	width: 50%;
-	padding-left: 2px;
+.social{
+	margin-bottom: 0%;
 }
-.contact-text{
-		padding-left: 18px;
-        font-size: 18px;
-
-	}
-	.selec-sex1{
-
-    padding-left: 15%;
-
+.copyright{
+	padding-top: 2%;
+	padding-bottom: 0%;
+	margin-top: %;
+    position:
+	width: auto;
+	height: 10%;
 }
-.selec-sex2{
-
-    padding-left: 23%;
-    padding-right: 5px;
-
-}
-.aeg h3{
-	font-size: 18px;
-
-}
-.salary h3{
-	font-size: 18px;
-
-}
-.often-max{
-	padding-left: 23px;
-}
-.often-max h3{
-	font-size: 18px;
-}
-.often-min h3{
-	font-size: 18px;
-}
-.often-box{
-	margin: 6px;
-}
-.often-min{
-	width: 85px;
-}
-.topic-question h2{
-	font-size: 24px;
-}
-.selec-sex1 h3{
-	font-size: 18px;
-}
-.selec-sex2 h3{
-	font-size: 18px;
-}
-.topic-question{
-	height: 100px;
-	padding-top: 25px;
-	padding-bottom: 5px;
-}
-.Qemail{
-	padding-top: 30px;
-}
-.Qemail h2{
-	font-size: 20px;
-}
-
-
-
+/*moblie*/
+@media screen and (max-width: 576px){
 	.navbar{
 		width: auto;
 		height: 11%;
@@ -831,6 +864,135 @@ height: auto;
 	height: auto;
 
 }
+/*header*/
+.navbar-right{
+
+}
+hr.head{
+	display: none;
+}
+
+.line-style{
+	display: none;
+
+}
+.workout-button h2{
+	font-size: 18px;
+}
+.navbar{
+	width: auto;
+
+}
+.input-age{
+	margin-left: 15%;
+	width: 70%;
+	height: auto;
+}
+.search-box h4{
+	font-size: 18px;
+}
+.input-age::placeholder{
+	font-size: 16px;
+}
+.location-pic{
+	position: relative;
+    text-align: center;
+
+	float: left;
+	width: 98%;
+
+	margin: 2%;
+}
+.chord-pic{
+	position: relative;
+    text-align: center;
+	float: left;
+	width: 96.5%;
+	height: auto;
+	margin: 2%;
+}
+.chord-bg{
+	position: absolute;
+	opacity: 0.5;
+
+	width: 88.5%;
+	height: 10.6%;
+
+	margin-top: 50.5%;
+	margin-left: 1.8%;
+}
+.chord-bg-2{
+	position: absolute;
+	opacity: 0.5;
+
+	width: 88.5%;
+	height: 10.6%;
+
+	margin-top: 123%;
+	margin-left:1.8%;
+}
+.chord-text-1{
+	position: absolute;
+	opacity: 1;
+
+	width: 89.5%;
+	height: 10.5%;
+
+	margin-top: 51.5%;
+	margin-left: 1.8%;
+}
+.chord-text-2{
+	position: absolute;
+	opacity: 1;
+
+	width: 89.5%;
+	height: 11.4%;
+
+	margin-top: 123%;
+	margin-left: 1.8%;
+}
+
+.chord h2{
+	opacity: 1;
+	font-size: 18px;
+	;
+
+}
+.chord p{
+	font-size: 12px;
+}
+.video-box iframe{
+	width: 100%;
+	height: 40%;
+
+}
+.video-pic{
+	width: auto;
+	height: 35%;
+}
+.video-pic img{
+	width: 100%;
+	height: auto;
+}
+.text-video{
+	width: 100%;
+	height: auto;
+	margin-left: 2%;
+	margin-bottom: 10%;
+}
+.video-pic h3{
+	font-size: 18px;
+}
+.video-pic p{
+	font-size: 12px;
+}
+.video-box{
+	width: 100%;
+	height: auto;
+}
+.video h3{
+	clear: both;
+}
 .call-box h3{
 	font-size: 28px;
 }
@@ -855,19 +1017,6 @@ height: auto;
 .text-footer-3 h2{
     font-size: 16px;
 
-}
-.Qdetail{
- width: 95%;
-	 text-align: center;
-	margin: 0% 0% 0% 5%;
-}
-.text-footer-G{
-
-
-}
-.text-footer-G h4{
-	font-size: 10px;
-	text-align: center;
 }
 .text-footer-2 {
 	width: 35%;
@@ -906,4 +1055,3 @@ height: auto;
 	margin: -5% auto;
 
 }
-/*header*/
