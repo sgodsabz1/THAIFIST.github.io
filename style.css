@@ -216,36 +216,37 @@ hr.line-style{
 	 background-color: black  !important;
 }
 .button-bmi{
-	font-size: 26px;
-	text-align: center;
-	margin-right: 2%;
-	margin-left: 14%;
-	background-color: #E6E6E6;
+	font-size: 26px !important;
+	text-align: center!important;
+	margin-right: 2%!important;
+	margin-left: 14%!important;
+	background-color: #E6E6E6 !important;
 	width: 35%;
 	height: auto;
-	border-radius: 20px;
-	border: 2px solid red;
+	border-radius: 20px !important;
+	border: none;
 	float: left;
 }
 .button-bmi-2{
-	font-size: 26px;
-	text-align: center;
-	margin: 0%;
-	background-color: #E6E6E6;
-	width: 35%;
+	font-size: 26px!important;
+	text-align: center!important;
+	margin: 0%!important;
+	background-color: #E6E6E6!important;
+	width: 35%!important;
 	height: auto;
-	border-radius: 20px;
-	border: 2px solid red;
-	float: left;
+	border-radius: 20px!important;
+	border: none;
+  	float: left;
 }
-.button-bmi:hover{
-	background-color: #CC0000;
-	color: white;
+.button-bmi:hover,visited{
+	background-color: #CC0000!important;
+	color: white!important;
 
 }
+
 .button-bmi-2:hover{
-	background-color: #CC0000;
-    color: white;
+	background-color: #CC0000!important;
+    color: white!important;
 }
 .input-age{
 	text-align: center;
