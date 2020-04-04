@@ -430,6 +430,12 @@ hr.line-style{
 	font-size: 36px;
 	color: white;
 }
+.video-img{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+
+}
 .video-box{
 
 margin-top: 2%;
