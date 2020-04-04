@@ -312,6 +312,7 @@ hr.line-style{
 	height: auto;
 	background-color: black!important;
 }
+
 .cost-text{
 	margin-top: 2%;
 	margin-left: 0%;
@@ -634,7 +635,7 @@ margin-top: 4.5%;
 	.teacher-text{
 		width: 100%;
 		margin-top: 142%;
-		font-size: 18px;
+		font-size: 24px;
 		padding: 10% 15%;
 	}
 	
