@@ -315,22 +315,22 @@ hr.line-style{
 	margin-top: 0%;
 }
 
-/* .chord-wrapper{
+ .chord-wrapper{
 
     width: auto;
 	height: 160%;
 	background-color: black;
 	margin-bottom: 0%;
-} */
+}
 
-.chord-wrapper{
+/* .chord-wrapper{
 
    width: auto;
 	height: 100%;
 	background-color: black;
 	position: relative;
 	margin: 155 0 0 0px;
-}
+} */
 .chord-wrapper h3{
 	font-size: 32px;
 	color: white;
