@@ -1,4 +1,5 @@
 
+
 html{
 	background-color: black;
 }
@@ -13,6 +14,7 @@ body{
 	font-family: 'Kanit', sans-serif;
 	background-color: black;
 }
+
 .logo{
 	float: left;
 	width: 45%;
@@ -114,10 +116,10 @@ hr.line-style{
 
 }
 .carousel-item{
-	margin-top: 7.9%;
+	margin-top: 7.6%;
 }
 .navbar-collapse{
-	font-size: 20px;
+	font-size: 22px;
 	margin-top: 2%;
 	float: left;
 	margin-right: 5%;
@@ -142,6 +144,8 @@ hr.line-style{
 
 	margin: 0 0 0 0;
 
+}
+/*header*/
 }
 .banner{
 	margin-top: 7.4%;
