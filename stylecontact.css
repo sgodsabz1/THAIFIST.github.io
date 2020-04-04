@@ -199,13 +199,13 @@ hr.line-style{
 		text-decoration-line: none;
 	}
 .find-box{
-	float: left;
+		float: left;
 	color: white;
 	text-align: center;
-	margin: 5% 30%;
+	margin: 5% 40%;
 	background-color: #CC0000;
 	border-radius: 25px;
-	width: 40%;
+	width: 20%;
 	height: auto;
 	border: none;
 }
