@@ -1,0 +1,485 @@
+<!-- <!DOCTYPE html> -->
+<html>
+<head>
+	<meta name="viewport" content="width=deivce-width, initial-scale=1">
+	<title>Thaifist</title>
+
+
+	<link rel="stylesheet" type="text/css" href="style2.css">
+
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Kanit:400,500&display=swap" rel="stylesheet">
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+
+
+<!--Modal: Login / Register Form-->
+<div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog cascading-modal" role="document">
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Modal cascading tabs-->
+      <div class="modal-c-tabs">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs md-tabs tabs-2 tet-danger darken-3" role="tablist">
+          <li class="nav-item login-box">
+            <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>
+              Login</a>
+          </li>
+          <li class="nav-item register-box">
+            <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>
+              Register</a>
+          </li>
+        </ul>
+
+        <!-- Tab panels -->
+        <div class="tab-content">
+          <!--Panel 7-->
+          <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+
+            <!--Body-->
+            <div class="modal-body mb-1">
+              <div class="md-form form-sm m-5">
+                <i class="fas fa-envelope prefix email-icon"></i>
+                <input type="email" id="modalLRInput10" class="form-control form-control-sm validate email-box w3-input" placeholder="youremail@email.com"><label data-error="wrong" data-success="right" for="modalLRInput14"></label>
+
+              </div>
+
+              <div class="md-form form-sm m-5">
+                <i class="fas fa-lock prefix email-icon"></i>
+                <input type="password" id="modalLRInput11" class="form-control form-control-sm validate email-box" placeholder="************"><label data-error="wrong" data-success="right" for="modalLRInput14"></label>
+
+              </div>
+              <div class="text-center mt-2">
+                <button class="btn btn-danger login-box">Log in <i class="fas fa-sign-in ml-1"></i></button>
+              </div>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+              <div class="options text-center text-md-right mt-1">
+                <p>Not a member? <a href="#" class="blue-text">Sign Up</a></p>
+                <p>Forgot <a href="#" class="blue-text">Password?</a></p>
+              </div>
+              <button type="button" class="btn btn-outline-dark waves-effect ml-auto " data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+          <!--/.Panel 7-->
+
+          <!--Panel 8-->
+          <div class="tab-pane fade" id="panel8" role="tabpanel">
+
+            <!--Body-->
+            <div class="modal-body mb-1">
+              <div class="md-form form-sm m-5">
+                <i class="fas fa-envelope prefix email-icon"></i>
+                <input type="email" id="modalLRInput10" class="form-control form-control-sm validate email-box w3-input" placeholder="youremail@email.com"><label data-error="wrong" data-success="right" for="modalLRInput14"></label>
+
+              </div>
+
+              <div class="md-form form-sm m-5">
+                <i class="fas fa-lock prefix email-icon"></i>
+                <input type="password" id="modalLRInput11" class="form-control form-control-sm validate email-box" placeholder="Your Password"><label data-error="wrong" data-success="right" for="modalLRInput14"></label>
+
+              </div>
+              <div class="md-form form-sm m-5">
+                <i class="fas fa-lock prefix email-icon"></i>
+                <input type="password" id="modalLRInput11" class="form-control form-control-sm validate email-box" placeholder="Confirmed Password"><label data-error="wrong" data-success="right" for="modalLRInput14"></label>
+
+              </div>
+              <div class="text-center mt-2">
+                <button class="btn btn-danger login-box">Sign up<i class="fas fa-sign-in ml-1"></i></button>
+              </div>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+              <div class="options text-right">
+                <p class="pt-1">Already have an account? <a href="#" class="blue-text">Log In</a></p>
+              </div>
+              <button type="button" class="btn btn-outline-dark waves-effect ml-auto" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          <!--/.Panel 8-->
+        </div>
+
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!--Modal: Login / Register Form-->
+
+
+
+<nav class="navbar narbar-inverse navbar-expand-lg fixed-top">
+  <a class="a-logo" href="index.html"><img class="navbar-brand logo" src="images/logo.png"></a>
+
+  <img class="gloves-1" src="images/boxing-glove.png">
+<div class="navbar-header">
+  <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarToggler">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  </div>
+
+
+
+   <div class="collapse navbar-collapse fluid" id="navbarToggler">
+    <ul class="navbar-nav nav navbar-right">
+      <li class="nav-item-user">
+				<a class="nav-link" href="#" data-toggle="modal" data-target="#modalLRForm">เข้าสู่ระบบ</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="content1.html">จองคอร์ด</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="content-bmi.html">คำนวณBmi</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">ราคา/คอร์ด</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">สาขา</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">เกี่ยวกับเรา</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contact.html">ติดต่อเรา</a>
+			</li>
+    </ul>
+  </div>
+  </div>
+  <img  class="gloves" src="images/boxing-glove.png">
+  <img  class="user" src="images/user.svg" data-toggle="modal" data-target="#modalLRForm">
+</nav>
+</header>
+
+<img class="banner" src="images/Banner4-editLOGO.jpg" width="100%">
+  <div class="train-wrapper">
+  <div class="train-text-header">
+      <h2>การฝึกทั้งหมด</h2>
+    </div>
+  <div class="container train">
+   <div class="card icon-box">
+  <img src="images/check.svg" class="icon-check" alt="...">
+  <div class="card-body">
+    <p class="card-text text-center text-check">ได้รับการอบรมอย่างถูกต้อง</p>
+  </div>
+</div>
+<div class="card icon-box">
+  <img src="images/hand.svg" class="icon-check" alt="...">
+  <div class="card-body">
+    <p class="card-text text-muaythai text-check">ฝึกพื้นฐานมวยไทยเพื่อให้เป็นนักมวยอาชีพ
+</p>
+  </div>
+</div>
+</div>
+ <div class="container train">
+   <div class="card icon-box">
+  <img src="images/like.svg" class=" icon-check" alt="...">
+  <div class="card-body">
+    <p class="card-text text-center text-check">ฝึกความเเข็งเเรงของใจเเละกายให้พร้อม</p>
+  </div>
+</div>
+<div class="card icon-box">
+  <img src="images/boxing.svg" class=" icon-check" alt="...">
+  <div class="card-body">
+    <p class="card-text text-muaythai text-check">ได้รับการอบรมจากครูมวยมากประสบการณ์</p>
+  </div>
+</div>
+</div>
+</div>
+   
+    <div class="video-wrapper">
+      <div class="video-text-header">วิดีโอการสอนเบื้องต้น</div>
+      <div class="video"><iframe width="80%" height="80%" src="https://www.youtube.com/embed/tjp5-UcspEg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </div>  
+    <div class="location-wrapper">
+      <div class="location-text-header">สาขา</div>
+      <div class="container">
+         <div class="card card-location">
+  <img src="images/location-no-text-1.jpg" class="card-img-center rounded-circle" alt="...">
+      <div class="card-img-overlay">
+    <h2 class="card-text location-text">พระราม 9</h2>
+  </div>
+</div>
+         <div class="card card-location">
+  <img src="images/location-no-text-2.jpg" class="card-img-center rounded-circle" alt="...">
+      <div class="card-img-overlay">
+    <h2 class="card-text location-text">สาทร</h2>
+  </div>
+</div>
+  <div class="card card-location">
+  <img src="images/location-no-text-3.jpg" class="card-img-center rounded-circle" alt="...">
+      <div class="card-img-overlay">
+    <h2 class="card-text location-text">เอกมัย</h2>
+  </div>
+</div>
+  <div class="card card-location">
+  <img src="images/location-no-text-4.jpg" class="card-img-center rounded-circle" alt="...">
+      <div class="card-img-overlay">
+    <h2 class="card-text location-text">เมืองทอง</h2>
+  </div>
+</div>
+   <div class="card card-location">
+  <img src="images/location-no-text-5.jpg" class="card-img-center rounded-circle" alt="...">
+      <div class="card-img-overlay">
+    <h2 class="card-text location-text">เพชรบุรี</h2>
+  </div>
+</div>
+   <div class="card card-location">
+  <img src="images/location-no-text-6.jpg" class="card-img-center rounded-circle" alt="...">
+      <div class="card-img-overlay">
+    <h2 class="card-text location-text">ข้าวสาร</h2>
+  </div>
+</div>
+
+        
+      </div>
+      <button class="search-box"><h4>สาขาเพิ่มเติม</h4></button>
+    </div>
+<div class="location-text-header-mobile">สาขา</div>
+   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="container">
+    <div class="carousel-item active">
+      <img src="images/location-no-text-1.jpg" class="d-block w-100 rounded-circle" alt="...">
+      <div class="carousel-caption ">
+        <h2>พระราม 9</h2>
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/location-no-text-2.jpg" class="d-block w-100 rounded-circle" alt="...">
+      <div class="carousel-caption ">
+        <h2>สาทร</h2>
+        
+      </div>
+    </div>
+     <div class="carousel-item">
+      <img src="images/location-no-text-3.jpg" class="d-block w-100 rounded-circle" alt="...">
+      <div class="carousel-caption ">
+        <h2>เอกมัย</h2>
+        
+      </div>
+    </div>
+     <div class="carousel-item">
+      <img src="images/location-no-text-4.jpg" class="d-block w-100 rounded-circle" alt="...">
+      <div class="carousel-caption ">
+        <h2>เมืองทอง</h2>
+        
+      </div>
+    </div>
+     <div class="carousel-item">
+      <img src="images/location-no-text-5.jpg" class="d-block w-100 rounded-circle" alt="...">
+      <div class="carousel-caption ">
+        <h2>เพชรบุรี</h2>
+        
+      </div>
+    </div>
+     <div class="carousel-item">
+      <img src="images/location-no-text-6.jpg" class="d-block w-100 rounded-circle" alt="...">
+      <div class="carousel-caption ">
+        <h2>ข้าวสาร</h2>
+        
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+   <i class="fa fa-angle-left" aria-hidden="true"></i>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <i class="fa fa-angle-right" aria-hidden="true"></i>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+  <button class="search-box-mobile"><h4>สาขาเพิ่มเติม</h4></button>
+</div>
+
+
+<div class="location-text-header-mobile">ครูมวย</div>
+   <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="container">
+    <div class="carousel-item active">
+      <img src="images/teacher-1.jpg" class="d-block w-100 rounded-circle teacher-pic-mobile" alt="...">
+      <div class="carousel-caption ">
+        <h2>อองตวน ปินโต</h2>
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/teacher-2.jpg" class="d-block w-100 rounded-circle" alt="...">
+      <div class="carousel-caption ">
+        <h2>บังหมัด หมัดโต</h2>
+        
+      </div>
+    </div>
+     <div class="carousel-item">
+      <img src="images/teacher-3.jpg" class="d-block w-100 rounded-circle" alt="...">
+      <div class="carousel-caption ">
+        <h2>ไชยา ติดใข่เค็ม</h2>
+        
+      </div>
+    </div>
+     <div class="carousel-item">
+      <img src="images/teacher-4.jpg" class="d-block w-100 rounded-circle" alt="...">
+      <div class="carousel-caption ">
+        <h2>มงสา ลาลงกร</h2>
+        
+      </div>
+    </div>
+     <div class="carousel-item">
+      <img src="images/teacher-5.png" class="d-block w-100 rounded-circle" alt="...">
+      <div class="carousel-caption ">
+        <h2>บัวขาว บังชาการ</h2>
+        
+      </div>
+    </div>
+     <div class="carousel-item">
+      <img src="images/teacher-6.jpg" class="d-block w-100 rounded-circle" alt="...">
+      <div class="carousel-caption ">
+        <h2>หนูเหมย ลี่หวน</h2>
+        
+      </div>
+    </div>
+
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControl2s" role="button" data-slide="prev">
+     <i class="fa fa-angle-left" aria-hidden="true"></i>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+    <i class="fa fa-angle-right" aria-hidden="true"></i>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+  <button class="search-box-mobile"><h4>ครูมวยเพิ่มเติม</h4></button>
+</div>
+
+    <div class="teacher-wrapper">
+      <div class="teacher-text-header">ครูมวยอาชีพ</div>
+      <div class="container">
+         <div class="card card-teacher">
+  <img src="images/teacher-1.jpg" width="100%" height="450" class=" rounded-circle teacher-pic" alt="...">
+     <div class="card-img-overlay">
+    <h2 class="card-text teacher-text">อองตวน ปินโต</h2>
+  </div>
+  </div>
+  <div class="card card-teacher">
+  <img src="images/teacher-2.jpg" width="100%" height="450" class=" rounded-circle teacher-pic" alt="...">
+     <div class="card-img-overlay">
+    <h2 class="card-text teacher-text">บังหมัด หมัดโต</h2>
+  </div>
+  </div>
+ <div class="card card-teacher">
+  <img src="images/teacher-3.jpg" width="100%" height="450" class=" rounded-circle teacher-pic" alt="...">
+     <div class="card-img-overlay">
+    <h2 class="card-text teacher-text">ไชยา ติดใข่เค็ม</h2>
+  </div>
+  </div>
+        <div class="card card-teacher">
+  <img src="images/teacher-4.jpg" width="100%" height="450" class=" rounded-circle teacher-pic" alt="...">
+     <div class="card-img-overlay">
+    <h2 class="card-text teacher-text">มงสา ลาลงกร</h2>
+  </div>
+  </div>
+ <div class="card card-teacher">
+  <img src="images/teacher-5.png" width="100%" height="450" class=" rounded-circle teacher-pic" alt="...">
+     <div class="card-img-overlay">
+    <h2 class="card-text teacher-text">บัวขาว สั่งการ</h2>
+  </div>
+  </div>
+  <div class="card card-teacher">
+  <img src="images/teacher-6.jpg" width="100%" height="450" class=" rounded-circle teacher-pic" alt="...">
+     <div class="card-img-overlay">
+    <h2 class="card-text teacher-text">หนูเหมย ลี่หวน</h2>
+  </div>
+  </div>
+    </div>
+    <button class="search-box"><h4>ครูมวยเพิ่มเติม</h4></button>
+  </div>
+  <div class="cost">
+  <div class="container">
+  <div class="cost-wrapper">
+    <div class="cost-text">ราคาต่อหลักสตรู&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp35,000</div>
+  </div>
+  <hr class="line">
+  <div class="cost-wrapper">
+    <div class="cost-text">อาหารเเละที่พัก&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fas fa-check"></i></div>
+  </div>
+  <hr class="line">
+  <div class="cost-wrapper">
+    <div class="cost-text">ฝึกได้ทุกสาขา&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fas fa-check"></i></div>
+  </div>
+  <hr class="line">
+  <div class="cost-wrapper">
+    <div class="cost-text">ระยะเวลา1ปีเต็ม&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fas fa-check"></i></div>
+  </div>
+  <hr class="line">
+  <button class="cost-box"><h4>จองคอร์ดนี้</h4></button>
+</div>
+   </div>
+
+	<!-- FOOOOOOOOOOOOOTERRRRRRRRRRRRRR -->
+
+					<footer class="footer">
+					  	<div class="call-box">
+								<a href="#">
+					  		<h3>สอบถามเพิ่มเติม&nbspโทร</h3><br>
+					  		<h2><i class="fas fa-phone-volume"></i>&nbsp089-9954852</h2>
+									<a>
+					  	</div>
+					<div class="container text-footer">
+
+						<h3>รับจดหมาย ข่าวเเละโปรโมชั่นของเราก่อนใคร</h3>
+						<input class="mail-box" type="" name=""><div class="mail-box-2" type="submit"><i class="fas fa-paper-plane"></i></div>
+					</div>
+						<div class="container">
+							<div class="text-footer-2" >
+					     <h2>เกี่ยวกับเรา</h2>
+						<h2>เกี่ยวกับบริษัท</h2>
+						<h2>เกี่ยวกับสาขา</h2>
+						<h2>สถานที่ตั้ง</h2>
+						<h2>ผลงาน</h2>
+
+							</div>
+
+									<hr class="hr-video-1">
+
+							<div class="text-footer-3" >
+
+					     <h2>สาขาที่เปิด</h2>
+						<h2>สาขา</h2>
+						<h2>ตำเเหน่ง</h2>
+						<h2>ลงทะเบียน</h2>
+
+							</div>
+		<hr class="hr-video">
+						</div>
+
+						<div class="container social">
+							<h2>FOLLOWE US ON SOCIAL</h2>
+							<div class="social-icon">
+								<i class="fab fa-facebook-f"></i><i class="fab fa-instagram"></i><i class="fab fa-youtube"></i>
+							</div>
+						</div>
+						<div class="copyright"><h2>Copyright &copy; 2020 THAI FIST</h2></div>
+					  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
